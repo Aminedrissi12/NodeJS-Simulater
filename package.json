@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "serv": "nodemon ./serv.js"
+    "start": "node ./serv.js"
   },
   "keywords": [
     "sumilatuer"
