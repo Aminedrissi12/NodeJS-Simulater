@@ -4,7 +4,7 @@ const kits = [
     taille: 'XS',
     puissance: 100,
     prix: 3693,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/old-1.png',
+    image: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/old-1.png',
     tension: 12,
   },
   {
@@ -12,7 +12,8 @@ const kits = [
     taille: 'S',
     puissance: 200,
     prix: 4611,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/2-panel-1-brty-1-steca.png',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/2-panel-1-brty-1-steca.png',
     tension: 12,
   },
   {
@@ -21,7 +22,7 @@ const kits = [
     taille: 'XS',
     puissance: 100,
     prix: 4638,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/04/comp.png',
+    image: 'https://cptechmaroc.ma/wp-content/uploads/2021/04/comp.png',
     tension: 220,
   },
   {
@@ -30,7 +31,8 @@ const kits = [
     taille: 'S',
     puissance: 285,
     prix: 4909,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-280-Wc-220-V-1200-Wh-Stockes-1.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-280-Wc-220-V-1200-Wh-Stockes-1.jpg',
     tension: 220,
   },
   {
@@ -39,7 +41,7 @@ const kits = [
     taille: 'S',
     puissance: 200,
     prix: 5454,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/12/comping.jpg',
+    image: 'https://cptechmaroc.ma/wp-content/uploads/2021/12/comping.jpg',
     tension: 220,
   },
   {
@@ -48,7 +50,8 @@ const kits = [
     taille: 'M',
     puissance: 570,
     prix: 9172,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/kits-solaires-autoe-0.7-Kw.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/kits-solaires-autoe-0.7-Kw.jpg',
     tension: 220,
   },
   {
@@ -56,7 +59,8 @@ const kits = [
     taille: 'M',
     puissance: 855,
     prix: 17040,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/kits-solaires-autome-1Kw.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/kits-solaires-autome-1Kw.jpg',
     tension: 220,
   },
   {
@@ -64,7 +68,7 @@ const kits = [
     taille: 'L',
     puissance: 1140,
     prix: 18718,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/1.2.jpg',
+    image: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/1.2.jpg',
     tension: 220,
   },
   {
@@ -72,7 +76,8 @@ const kits = [
     taille: 'L',
     puissance: 1710,
     prix: 29580,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-w-Steca-1.710Wc-220V-4.800Wh-Stocke.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-w-Steca-1.710Wc-220V-4.800Wh-Stocke.jpg',
     tension: 220,
   },
   {
@@ -80,7 +85,8 @@ const kits = [
     taille: 'XL',
     puissance: 2280,
     prix: 33300,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-5Kw-Steca-2.280Wc-0V-7.200Wh-Stockes.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/Kit-solaire-Autonome-%E2%80%93-5Kw-Steca-2.280Wc-0V-7.200Wh-Stockes.jpg',
     tension: 220,
   },
   {
@@ -88,7 +94,8 @@ const kits = [
     taille: 'XL',
     puissance: 2280,
     prix: 36758,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/NOS-KITS-SOLRES-AUTONOME-220V-TAILLE-XL-3.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/NOS-KITS-SOLRES-AUTONOME-220V-TAILLE-XL-3.jpg',
     tension: 220,
   },
   {
@@ -96,7 +103,8 @@ const kits = [
     taille: 'XL',
     puissance: 2280,
     prix: 40243,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2021/02/NOS-KITS-SOLRES-AUTONOME-220V-TAILLE-XL-3.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2021/02/NOS-KITS-SOLRES-AUTONOME-220V-TAILLE-XL-3.jpg',
     tension: 220,
   },
   {
@@ -105,7 +113,8 @@ const kits = [
     taille: 'XXL',
     puissance: 6840,
     prix: 93305,
-    img: 'https://cptechmaroc.ma/wp-content/uploads/2022/01/KITS-SOLAIRES-AUTONOME-TRIPHASE-0V-%E2%80%93-TAILLE-XXL-1.jpg',
+    image:
+      'https://cptechmaroc.ma/wp-content/uploads/2022/01/KITS-SOLAIRES-AUTONOME-TRIPHASE-0V-%E2%80%93-TAILLE-XXL-1.jpg',
     tension: 380,
   },
 ]
